@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/56b1e9261f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+ <div class="container">
+  <nav>
+    <ul>
+      <li><a href="#" class="logo">
+        <img src="catsu-logo.png" alt="">
+        <span class="nav-item">ASSRAS</span>
+      </a></li>
+      <li ><a href="#">
+        <i class="fa fa-home"></i>
+        <span class="nav-item">Home</span>
+      </a></li>
+      <li><a href="">
+        <i class="fa fa-list-alt"></i>
+        <span class="nav-item">Curriculum</span>
+      </a></li>
+      <li><a href="">
+        <i class="fas fa-chalkboard-teacher"></i>
+        <span class="nav-item">Teaching Staff</span>
+      </a></li>
+      <li><a href="">
+        <i class="fas fa-chair"></i>
+        <span class="nav-item">Rooms</span>
+      </a></li>
+      <li><a href="">
+        <i class="fas fa-tasks"></i>
+        <span class="nav-item">Subjects</span>
+      </a></li>
+      <li><a href="">
+        <i class="fab fa-readme"></i>
+        <span class="nav-item">Program</span>
+      </a></li>
+      <li><a href="" class="logout">
+        <i class="fas fa-arrow-circle-right"></i>
+        <span class="nav-item">Log out</span>
+      </a></li>
+    </ul>
+  </nav>
+
+  <section class="main">
+    <h1>Programs</h1>
+      <div class="main-left">
+        <label for="degree">Degree/Program</label>
+        <input type="text"><br> 
+        <label for="year-level">Year</label>
+        <select id="year-level">
+                  <option selected class="selected">Select Your Year Level</option>
+                  <option value="first">1st</option>
+                  <option value="second">2nd</option>
+                  <option value="third">3rd</option>
+                  <option value="fourth">4th</option>
+        </select><br>
+        <label for="course-type">Number of Blocks</label>
+        <select id="course-type"><br>
+          <option selected class="selected">Select No. of Blocks</option>
+          <option value="lab">1</option>
+          <option value="lec">2</option>
+          <option value="lab">3</option>
+          <option value="lec">4</option>
+          <option value="lab">5</option>
+          <option value="lec">6</option>
+          <option value="lab">7</option>
+          <option value="lec">8</option>
+        </select><br> 
+        <button type="submit">Submit</button>
+      </div>
+</section>
+ </div>
+</body>
+</html>
